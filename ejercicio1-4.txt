@@ -1,0 +1,15 @@
+static void Main (string [] args)
+{
+    int matriz = {17,9,36,21,8,28,3,1,15,7,5,30,10,17,4,12};
+    RecorridoFor = 4;
+    posicionElemento = 0;
+
+    int sumaElementos = 0;
+    for (int i = 0;i < RecorridoFor; i++)
+    {
+        suma = suma + matriz [posicionElemento];
+        posicionElemento = posicionElemento + 5;
+    }
+
+    Console.WriteLine ("La suma es "+ suma);
+}
